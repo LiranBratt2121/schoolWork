@@ -1,22 +1,22 @@
-﻿using System;
+﻿using ConsoleApp3;
+using System;
 using System.Collections.Generic;
+using System.Data.SqlTypes;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp3
+namespace homeworkTask19
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Date date = new Date(2000, 12, 1);
-            Date date1 = new Date(124, 3, 11);
-            Date date2 = new Date(2014, 5, 4);
-            Console.WriteLine(date.toString());
-            Console.WriteLine(date2.toString());
-            Console.WriteLine(date1.toString());
-
+/*            Traveller traveller = new Traveller(new Passport("bob", 12348723, new Date(2007, 9, 1)) ,true);
+            Traveller traveller1 = new Traveller(new Passport("bob", 12348723, new Date(2007, 9, 1)) ,true);
+            Traveller traveller2 = new Traveller(new Passport("bob", 12348723, new Date(2007, 9, 1)) ,true);
+            Traveller traveller3 = new Traveller(new Passport("bob", 12348723, new Date(2007, 9, 1)) ,false);
+*/
         }
     }
 }
